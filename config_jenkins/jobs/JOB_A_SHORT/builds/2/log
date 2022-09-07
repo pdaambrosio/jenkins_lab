@@ -1,0 +1,8 @@
+Started by user [8mha:////4Fl1i1tAOymAIKASUFd6kuxVBUQaoobJEPK0ipwTvjufAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Started by user [8mha:////4Fl1i1tAOymAIKASUFd6kuxVBUQaoobJEPK0ipwTvjufAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+[EnvInject] - Loading node environment variables.
+Building in workspace /var/jenkins_home/workspace/JOB_A_SHORT
+[JOB_A_SHORT] $ /bin/sh -xe /tmp/jenkins6546721721276512804.sh
++ sleep 60
+Finished: SUCCESS
