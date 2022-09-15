@@ -462,6 +462,10 @@
       <string>2.13.0</string>
     </entry>
     <entry>
+      <string>terraform</string>
+      <string>1.0.10</string>
+    </entry>
+    <entry>
       <string>jquery3-api</string>
       <string>3.6.0-4</string>
     </entry>
@@ -536,6 +540,14 @@
     <entry>
       <string>matrix-project</string>
       <string>785.v06b_7f47b_c631</string>
+    </entry>
+    <entry>
+      <string>theme-manager</string>
+      <string>1.5</string>
+    </entry>
+    <entry>
+      <string>dark-theme</string>
+      <string>245.vb_a_2b_b_010ea_96</string>
     </entry>
     <entry>
       <string>git</string>
@@ -678,5 +690,5 @@
       <string>1.17</string>
     </entry>
   </plugins>
-  <pluginsXml>/srv/backup/FULL-2022-09-12_17-09/installedPlugins.xml</pluginsXml>
+  <pluginsXml>/srv/backup/FULL-2022-09-14_16-56/installedPlugins.xml</pluginsXml>
 </org.jvnet.hudson.plugins.thinbackup.backup.PluginList>

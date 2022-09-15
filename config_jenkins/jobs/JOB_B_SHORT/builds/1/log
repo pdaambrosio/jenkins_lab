@@ -1,7 +1,0 @@
-Started by user [8mha:////4Fl1i1tAOymAIKASUFd6kuxVBUQaoobJEPK0ipwTvjufAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
-Running as SYSTEM
-[EnvInject] - Loading node environment variables.
-Building in workspace /var/jenkins_home/workspace/JOB_B_SHORT
-[JOB_B_SHORT] $ /bin/sh -xe /tmp/jenkins10665177655422470158.sh
-+ sleep 60
-Finished: SUCCESS
