@@ -458,12 +458,12 @@
       <string>1.2</string>
     </entry>
     <entry>
-      <string>pipeline-utility-steps</string>
-      <string>2.13.0</string>
-    </entry>
-    <entry>
       <string>terraform</string>
       <string>1.0.10</string>
+    </entry>
+    <entry>
+      <string>pipeline-utility-steps</string>
+      <string>2.13.0</string>
     </entry>
     <entry>
       <string>jquery3-api</string>
@@ -690,5 +690,5 @@
       <string>1.17</string>
     </entry>
   </plugins>
-  <pluginsXml>/srv/backup/FULL-2022-09-14_16-56/installedPlugins.xml</pluginsXml>
+  <pluginsXml>/srv/backup/FULL-2022-09-19_14-13/installedPlugins.xml</pluginsXml>
 </org.jvnet.hudson.plugins.thinbackup.backup.PluginList>
