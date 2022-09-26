@@ -19,7 +19,7 @@
     </entry>
     <entry>
       <string>github-branch-source</string>
-      <string>1694.vd46793a_c4a_57</string>
+      <string>1695.v88de84e9f6b_9</string>
     </entry>
     <entry>
       <string>pipeline-github-lib</string>
@@ -59,7 +59,7 @@
     </entry>
     <entry>
       <string>git-client</string>
-      <string>3.11.2</string>
+      <string>3.12.0</string>
     </entry>
     <entry>
       <string>scm-api</string>
@@ -91,7 +91,7 @@
     </entry>
     <entry>
       <string>forensics-api</string>
-      <string>1.15.1</string>
+      <string>1.16.0</string>
     </entry>
     <entry>
       <string>blueocean-personalization</string>
@@ -247,7 +247,7 @@
     </entry>
     <entry>
       <string>workflow-job</string>
-      <string>1232.v5a_4c994312f1</string>
+      <string>1236.vc3a_d1602f439</string>
     </entry>
     <entry>
       <string>toolenv</string>
@@ -323,15 +323,15 @@
     </entry>
     <entry>
       <string>script-security</string>
-      <string>1175.v4b_d517d6db_f0</string>
+      <string>1183.v774b_0b_0a_a_451</string>
     </entry>
     <entry>
       <string>external-monitor-job</string>
-      <string>192.ve979ca_8b_3ccd</string>
+      <string>203.v683c09d993b_9</string>
     </entry>
     <entry>
       <string>Hudson core</string>
-      <string>2.365</string>
+      <string>2.370</string>
     </entry>
     <entry>
       <string>blueocean-dashboard</string>
@@ -351,7 +351,7 @@
     </entry>
     <entry>
       <string>kubernetes</string>
-      <string>3704.va_08f0206b_95e</string>
+      <string>3706.vdfb_d599579f3</string>
     </entry>
     <entry>
       <string>role-strategy</string>
@@ -403,7 +403,7 @@
     </entry>
     <entry>
       <string>font-awesome-api</string>
-      <string>6.1.2-1</string>
+      <string>6.2.0-2</string>
     </entry>
     <entry>
       <string>pipeline-model-extensions</string>
@@ -451,7 +451,7 @@
     </entry>
     <entry>
       <string>pipeline-input-step</string>
-      <string>449.v77f0e8b_845c4</string>
+      <string>451.vf1a_a_4f405289</string>
     </entry>
     <entry>
       <string>artifactdeployer</string>
@@ -467,7 +467,7 @@
     </entry>
     <entry>
       <string>jquery3-api</string>
-      <string>3.6.0-4</string>
+      <string>3.6.1-1</string>
     </entry>
     <entry>
       <string>git-server</string>
@@ -491,7 +491,7 @@
     </entry>
     <entry>
       <string>credentials</string>
-      <string>1143.vb_e8b_b_ceee347</string>
+      <string>1189.vf61b_a_5e2f62e</string>
     </entry>
     <entry>
       <string>mina-sshd-api-common</string>
@@ -531,7 +531,7 @@
     </entry>
     <entry>
       <string>command-launcher</string>
-      <string>84.v4a_97f2027398</string>
+      <string>90.v669d7ccb_7c31</string>
     </entry>
     <entry>
       <string>jquery</string>
@@ -551,11 +551,11 @@
     </entry>
     <entry>
       <string>git</string>
-      <string>4.11.5</string>
+      <string>4.12.1</string>
     </entry>
     <entry>
       <string>bootstrap5-api</string>
-      <string>5.2.0-3</string>
+      <string>5.2.1-2</string>
     </entry>
     <entry>
       <string>authentication-tokens</string>
@@ -603,7 +603,7 @@
     </entry>
     <entry>
       <string>ant</string>
-      <string>475.vf34069fef73c</string>
+      <string>481.v7b_09e538fcca</string>
     </entry>
     <entry>
       <string>blueocean-bitbucket-pipeline</string>
@@ -619,7 +619,7 @@
     </entry>
     <entry>
       <string>htmlpublisher</string>
-      <string>1.30</string>
+      <string>1.31</string>
     </entry>
     <entry>
       <string>ssh-slaves</string>
@@ -690,5 +690,5 @@
       <string>1.17</string>
     </entry>
   </plugins>
-  <pluginsXml>/srv/backup/FULL-2022-09-19_14-13/installedPlugins.xml</pluginsXml>
+  <pluginsXml>/srv/backup/FULL-2022-09-22_18-08/installedPlugins.xml</pluginsXml>
 </org.jvnet.hudson.plugins.thinbackup.backup.PluginList>

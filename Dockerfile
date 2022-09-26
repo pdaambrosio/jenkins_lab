@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:latest
+FROM jenkins/jenkins:2.370
 USER root
 RUN apt-get update && apt-get clean && apt-get autoremove
 RUN mkdir /srv/backup && chown jenkins:jenkins /srv/backup
