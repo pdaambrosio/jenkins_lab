@@ -1,7 +1,7 @@
 pipeline {
     // agent any
     agent {
-        label "mapfre-sp-terraform"
+        label "sp-terraform"
     }
 
     stages {
@@ -12,7 +12,7 @@ pipeline {
             }
 
             steps {
-                git url: 'https://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@github.com/TTech-CCoE/tf-mapfre-vsphere.git', branch: 'main'
+                git url: 'https://github.com/pdaambrosio/learn-terraform-cloud.git', branch: 'main'
             }   
         }
 
