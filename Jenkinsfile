@@ -14,6 +14,7 @@ pipeline {
             name: 'ENVIRONMENT')
         string(defaultValue: "test", description: 'test variable1', name: 'test1')
         string(defaultValue: "test2", description: 'test variable2', name: 'test2')
+
     }
 
     stages {
