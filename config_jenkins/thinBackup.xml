@@ -7,12 +7,12 @@
   <excludedFilesRegex></excludedFilesRegex>
   <waitForIdle>true</waitForIdle>
   <forceQuietModeTimeout>120</forceQuietModeTimeout>
-  <cleanupDiff>false</cleanupDiff>
+  <cleanupDiff>true</cleanupDiff>
   <moveOldBackupsToZipFile>true</moveOldBackupsToZipFile>
   <backupBuildResults>true</backupBuildResults>
   <backupBuildArchive>false</backupBuildArchive>
   <backupPluginArchives>true</backupPluginArchives>
-  <backupUserContents>false</backupUserContents>
+  <backupUserContents>true</backupUserContents>
   <backupAdditionalFiles>false</backupAdditionalFiles>
   <backupAdditionalFilesRegex></backupAdditionalFilesRegex>
   <backupNextBuildNumber>true</backupNextBuildNumber>

@@ -4,7 +4,7 @@
   <gitlabHostUrl></gitlabHostUrl>
   <assigneeFilter>jenkins</assigneeFilter>
   <tagFilter>Build</tagFilter>
-  <botApiTokenSecret>{AQAAABAAAAAQZd+mIfgKe6Qg/fRd8KqVaq11UBIKI6SmWR/tzSASPvo=}</botApiTokenSecret>
+  <botApiTokenSecret>{AQAAABAAAABAIv0YIVE9vC6XdB2HhZuQu1a0VPGVTTAH12B7hj9gzSjsUPc1SKDB9byYL9ilYUbc/d3LvH5ppC9Ynugtik2BXyXXDnKJlJaWp4pcGBZPI8A=}</botApiTokenSecret>
   <cron>H/5 * * * *</cron>
   <enableBuildTriggeredMessage>true</enableBuildTriggeredMessage>
   <successMessage>Build finished.  Tests PASSED.</successMessage>

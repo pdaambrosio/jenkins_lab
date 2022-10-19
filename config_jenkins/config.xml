@@ -3,9 +3,9 @@
   <disabledAdministrativeMonitors>
     <string>jenkins.diagnostics.ControllerExecutorsNoAgents</string>
   </disabledAdministrativeMonitors>
-  <version>2.370</version>
-  <numExecutors>2</numExecutors>
-  <mode>NORMAL</mode>
+  <version>2.361.2</version>
+  <numExecutors>0</numExecutors>
+  <mode>EXCLUSIVE</mode>
   <useSecurity>true</useSecurity>
   <authorizationStrategy class="hudson.security.FullControlOnceLoggedInAuthorizationStrategy">
     <denyAnonymousReadAccess>true</denyAnonymousReadAccess>
