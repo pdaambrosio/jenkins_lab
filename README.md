@@ -1,125 +1,34 @@
-# jenkins_mapfre
+# jenkins_lab
 
-Repository of Jenkins Mapfre
+This is a lab for learning Jenkins.
 
-![](./map.png)
+## Prerequisites
 
-## How to use
+* [Docker](https://www.docker.com/)
+* [Git](https://git-scm.com/)
+* [kubernetes](https://kubernetes.io/)
 
-### Install
+## Getting Started
 
-```bash
-git clone
-cd jenkins_mapfre
-terraform init
-```
+### Docker
 
-### Create
+#### Build
 
 ```bash
-terraform apply
+docker build -t jenkins_lab .
 ```
 
-### Destroy
+#### Run
 
 ```bash
-terraform destroy
+docker run -p 8080:8080 -p 50000:50000 jenkins_lab
 ```
 
-## How to use with Docker
+### Kubernetes
 
-### Build
+#### Run
 
 ```bash
-docker build -t jenkins_mapfre .
+kubectl apply -f jenkins-sa.yaml
+kubectl apply -f jenkins-deployment.yaml
 ```
-
-### Run
-
-```bash
-docker run -it --rm -v $(pwd):/app -w /app jenkins_mapfre
-```
-
-## How to use with Docker Compose
-
-### Build
-
-```bash
-docker-compose build
-```
-
-### Run
-
-```bash
-docker-compose run --rm jenkins_mapfre
-```
-
-## How to use with Docker Compose and Makefile
-
-### Build
-
-```bash
-make build
-```
-
-### Run
-
-```bash
-make run
-```
-
-## How to use with Docker Compose and Makefile and Docker Hub
-
-### Build
-
-```bash
-make build
-```
-
-### Run
-
-```bash
-make run
-```
-
-### Push
-
-```bash
-make push
-```
-
-## How to use with Docker Compose and Makefile and Docker Hub and GitHub
-
-### Build
-
-```bash
-make build
-```
-
-### Run
-
-```bash
-make run
-```
-
-### Push
-
-```bash
-make push
-```
-
-### Pull
-
-```bash
-make pull
-```
-
-### Deploy
-
-```bash
-make deploy
-```
-
-## License
-
-MIT License
