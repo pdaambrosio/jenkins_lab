@@ -8,7 +8,7 @@ metadata:
 apiVersion: v1
 kind: ServiceAccount
 metadata:
-  name: jenkins
+  name: jenkins-sa
   namespace: jenkins
 ---
 apiVersion: rbac.authorization.k8s.io/v1

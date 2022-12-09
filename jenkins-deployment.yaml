@@ -1,23 +1,23 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: jenkins-dev-deplpoyment
+  name: jenkins-deployment
   namespace: jenkins
   labels:
-    app: jenkins-dev
+    app: jenkins
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
-      app: jenkins-dev
+      app: jenkins
   template:
     metadata:
-      name: jenkins-dev-replicaset
+      name: jenkins-replicaset
       labels:
-        app: jenkins-dev
+        app: jenkins
     spec:
       containers:
-        - name: jenkins-dev-pod
+        - name: jenkins-pod
           image: pdaambrosio/jenkins-lts:1.2.0
           ports:
           -  name: http-port
@@ -51,15 +51,29 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: jenkins-dev-service
+  name: jenkins-service
   namespace: jenkins
   labels:
-    app: jenkins-dev
+    app: jenkins
 spec:
-  type: NodePort
   ports:
     - port: 8080
-      targetPort: 8080
-      nodePort: 30080
   selector:
-    app: jenkins-dev
+    app: jenkins
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: jenkins-ingress
+  namespace: jenkins
+spec:
+  rules:
+  - http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: jenkins-service
+            port:
+              number: 8080
